@@ -9,3 +9,5 @@ import pandas as pd
 df = pd.read_csv(r'https://support.sas.com/documentation/onlinedoc/viya/exampledatasets/loan_customers.csv')
 
 SAS.df2sd(df, 'work.loan_customers')
+
+print(df.shape)
