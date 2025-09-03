@@ -10,4 +10,3 @@ df = pd.read_csv(r'https://support.sas.com/documentation/onlinedoc/viya/exampled
 
 SAS.df2sd(df, 'work.loan_customers')
 
-print(df.shape)
